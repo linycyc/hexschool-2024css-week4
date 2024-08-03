@@ -139,7 +139,7 @@
 }
 
 /* footer */
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .container {
     max-width: 696px;
     margin: 0 auto;
@@ -161,7 +161,7 @@
 }
 
 /* footer */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .footer-items {
     display: none;
     margin-top: 24px;

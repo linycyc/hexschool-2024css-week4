@@ -184,6 +184,10 @@ h2 {
   margin-left: auto;
 }
 
+.mr-2 {
+  margin-right: 8px;
+}
+
 .mr-8 {
   margin-right: 32px;
 }
@@ -249,8 +253,19 @@ h2 {
   padding: 4px;
 }
 
+.w-50 {
+  width: 50%;
+}
+
 .container {
   max-width: 1296px;
   margin: 0 auto;
   padding: 0 12px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -12px;
+  margin-left: -12px;
 }

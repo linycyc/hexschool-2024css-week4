@@ -1,3 +1,7 @@
+<script setup>
+import Footer from "./Footer.vue";
+</script>
+
 <template>
   <nav class="nav">
     <div class="container d-flex">
@@ -7,13 +11,19 @@
         </a>
       </div>
       <ul class="d-flex justify-between ml-auto">
-        <li><a href="#" class="mr-16 nav-item">系列鏡框</a></li>
+        <li>
+          <RouterLink to="/product/optical" class="nav-item mr-16"
+            >系列鏡框</RouterLink
+          >
+        </li>
         <li><a href="#" class="mr-16 nav-item">門市據點</a></li>
         <li><a href="#" class="mr-16 nav-item">部落格</a></li>
         <li><a href="#" class="nav-item">常見問題</a></li>
       </ul>
     </div>
   </nav>
+  <RouterView />
+  <Footer />
 </template>
 
 <style scoped>
@@ -53,7 +63,7 @@
 /* nav */
 @media (max-width: 576px) {
   .container {
-    max-width: 348px;
+    /* max-width: 348px; */
     margin: 0 auto;
     flex-wrap: wrap;
     /* padding: 0px; */

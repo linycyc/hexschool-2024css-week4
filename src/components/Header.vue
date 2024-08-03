@@ -50,7 +50,7 @@
 }
 
 /* banner */
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .container {
     max-width: 696px;
     margin: 0 auto;
@@ -65,7 +65,7 @@
 }
 
 /* banner */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .banner {
     background: url("../assets/images/home-header-sm.png");
     height: 396px;
