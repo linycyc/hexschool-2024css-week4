@@ -73,10 +73,7 @@ import Header from "./Header.vue";
       </div>
     </div>
 
-    <div
-      class="design"
-      style="background: url(src/assets/images/index-bg.png)"
-    >
+    <div class="design">
       <div class="container">
         <h2 class="design-title">聯名設計鏡框</h2>
         <div class="row">
@@ -193,17 +190,17 @@ import Header from "./Header.vue";
           </div>
 
           <div class="input-phone mt-4">
-            <lable for="phone" class="mb-2">連絡電話</lable>
+            <label for="phone" class="mb-2">連絡電話</label>
             <input type="text" id="phone" placeholder="0912345678" />
           </div>
 
           <div class="input-mail mt-4">
-            <lable for="mail" class="mb-2">電子郵件</lable>
+            <label for="mail" class="mb-2">電子郵件</label>
             <input type="text" id="mail" placeholder="xxx@gmail.com" />
           </div>
 
           <div class="input-response mt-4">
-            <lable for="response" class="mb-2">意見反應</lable>
+            <label for="response" class="mb-2">意見反應</label>
             <textarea id="response" placeholder="請輸入"></textarea>
           </div>
           <div class="d-flex mt-4">
@@ -298,6 +295,10 @@ import Header from "./Header.vue";
 .classic .card h2 {
   font-weight: bold;
   text-align: center;
+}
+
+.design {
+  background: url("../assets/images/index-bg.png");
 }
 
 .design .container {

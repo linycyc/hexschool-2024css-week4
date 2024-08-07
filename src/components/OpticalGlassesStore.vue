@@ -2,13 +2,13 @@
   <div>
     <div class="serial-items">
       <div class="container">
-        <ul class="d-flex justify-between box">
+        <div class="d-flex justify-between box">
           <RouterLink to="/product/optical" class="products-link-active"
             >OPTICAL</RouterLink
           >
           <RouterLink to="/product/sun">SUNGLASSES</RouterLink>
           <RouterLink to="">FUNCTIONAL</RouterLink>
-        </ul>
+        </div>
       </div>
     </div>
 
@@ -343,7 +343,7 @@
   a {
     display: block;
     text-decoration: none;
-    padding: 12px 16px;
+    padding: 12px 12px;
     border: 1px solid #555555;
   }
   &:nth-last-child(1) {

@@ -2,13 +2,13 @@
   <div>
     <div class="serial-items">
       <div class="container">
-        <ul class="d-flex justify-between box">
+        <div class="d-flex justify-between box">
           <RouterLink to="/product/optical">OPTICAL</RouterLink>
           <RouterLink to="/product/sun" class="products-link-active"
             >SUNGLASSES</RouterLink
           >
           <RouterLink to="">FUNCTIONAL</RouterLink>
-        </ul>
+        </div>
       </div>
     </div>
 
